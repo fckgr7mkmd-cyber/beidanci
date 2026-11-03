@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="背单词">
+<meta name="theme-color" content="#6b3fa0">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<link rel="icon" href="data:image/png;base64,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">
+<title>背单词</title>
+<style>
+:root{
+  --paper:#f6f5fb; --card:#ffffff; --ink:#1f1b2e; --muted:#6c6680; --line:#e3e0ee;
+  --grape:#6b3fa0; --grape-soft:#efe8f8; --ok:#1f8a5b; --ok-soft:#e2f4ea; --bad:#c2413b; --bad-soft:#fbe7e5;
+  --f-word:Georgia,"Times New Roman",serif;
+  --f-body:-apple-system,system-ui,"PingFang SC","Microsoft YaHei",sans-serif;
+  --f-num:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root{
+  --paper:#15131c; --card:#1e1b28; --ink:#ece9f5; --muted:#9a94ad; --line:#2f2b3d;
+  --grape:#b993e8; --grape-soft:#2c2340; --ok:#5fd39a; --ok-soft:#173326; --bad:#f08a83; --bad-soft:#3a1c1b; color-scheme:dark}}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);background:var(--paper)}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.6;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:16px 40px}
+[hidden]{display:none!important}
+.wrap{max-width:560px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+header{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
+h1{font-size:20px;margin:0}
+.stats{font-family:var(--f-num);font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.daily{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--muted)}
+.bar{flex:1;height:6px;border-radius:3px;background:var(--line);overflow:hidden}
+.bar i{display:block;height:100%;background:var(--grape);width:0}
+.modes{display:flex;gap:6px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:6px 12px;font:inherit;font-size:13px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--grape);border-color:var(--grape);color:var(--card)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 18px 18px}
+.card-top{display:flex;justify-content:space-between;font-size:12px;color:var(--muted)}
+.prompt{min-height:100px;display:flex;align-items:center;justify-content:center;gap:10px;text-align:center;padding:12px 0;word-break:break-word}
+.prompt .t{font-weight:700}
+.prompt.en .t{font-family:var(--f-word);font-size:clamp(34px,10vw,46px)}
+.prompt.zh .t{font-size:clamp(24px,7vw,32px)}
+.say{border:1px solid var(--line);background:var(--paper);color:var(--grape);border-radius:999px;width:38px;height:38px;font-size:17px;cursor:pointer;flex:none}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.opt{min-height:56px;border:1px solid var(--line);background:var(--paper);color:var(--ink);border-radius:10px;font:inherit;font-size:16px;padding:8px;cursor:pointer;word-break:break-word}
+.opt.en{font-family:var(--f-word);font-size:18px}
+.opt.right{background:var(--ok-soft);border-color:var(--ok);color:var(--ok)}
+.opt.wrong{background:var(--bad-soft);border-color:var(--bad);color:var(--bad)}
+.spell{display:flex;gap:8px}
+.spell input{flex:1;font-family:var(--f-word);font-size:20px;text-align:center}
+.feedback{min-height:24px;margin-top:12px;font-size:14px;text-align:center;color:var(--muted)}
+.feedback b{color:var(--ink);font-family:var(--f-word)}
+.ok{color:var(--ok)!important}.bad{color:var(--bad)!important}
+section{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+section h2{font-size:15px;margin:0 0 10px;display:flex;justify-content:space-between;align-items:baseline}
+section h2 span{font-weight:400;font-size:12px;color:var(--muted);font-family:var(--f-num)}
+form{display:flex;gap:8px;flex-wrap:wrap}
+input,textarea{font:inherit;font-size:16px;color:var(--ink);background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:8px 10px;min-width:0}
+#en{flex:1 1 120px;font-family:var(--f-word)} #zh{flex:1 1 120px}
+.btn{font:inherit;border:0;border-radius:8px;padding:8px 16px;background:var(--grape);color:var(--card);cursor:pointer;font-weight:600}
+.btn.ghost{background:transparent;color:var(--grape);border:1px solid var(--grape)}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+details{margin-top:10px;font-size:14px}
+summary{cursor:pointer;color:var(--grape)}
+textarea{width:100%;min-height:110px;margin:8px 0;font-size:14px}
+.hint{font-size:12px;color:var(--muted)}
+.search{width:100%;margin-top:12px}
+.list{list-style:none;margin:8px 0 0;padding:0;max-height:420px;overflow-y:auto}
+.list li{display:flex;align-items:center;gap:10px;padding:8px 2px;border-bottom:1px solid var(--line)}
+.list .w{font-family:var(--f-word);font-weight:700;word-break:break-word}
+.list .m{color:var(--muted);flex:1;min-width:0;word-break:break-word}
+.tag{font-size:11px;color:var(--bad);border:1px solid var(--bad);border-radius:999px;padding:0 6px;white-space:nowrap}
+.del{border:0;background:none;color:var(--muted);cursor:pointer;font-size:13px;padding:4px}
+button:focus-visible,input:focus-visible,textarea:focus-visible,summary:focus-visible{outline:2px solid var(--grape);outline-offset:2px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>背单词</h1>
+    <div class="stats" id="stats">本轮 0/0 · 平均 – 秒</div>
+  </header>
+
+  <div class="daily"><span id="dayText">今天 0/20</span><div class="bar"><i id="dayBar"></i></div><span id="streak">连续 0 天</span></div>
+
+  <div class="modes" role="group" aria-label="题型">
+    <button class="chip" data-mode="en" aria-pressed="true">英 → 中</button>
+    <button class="chip" data-mode="zh" aria-pressed="false">中 → 英</button>
+    <button class="chip" data-mode="spell" aria-pressed="false">拼写</button>
+    <button class="chip" id="bookBtn" aria-pressed="false">错词本 0</button>
+  </div>
+
+  <div class="card">
+    <div class="card-top"><span id="tag">看英文选中文</span><span id="count">词库 0</span></div>
+    <div class="prompt en" id="prompt"><span class="t" id="ptext">…</span><button class="say" id="say" aria-label="读出来">🔊</button></div>
+    <div class="opts" id="opts"></div>
+    <form class="spell" id="spellForm" hidden>
+      <input id="spellIn" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="打出英文">
+      <button class="btn" type="submit">确定</button>
+    </form>
+    <div class="feedback" id="fb"></div>
+  </div>
+
+  <section>
+    <h2>加单词 <span id="total">0 个</span></h2>
+    <form id="addForm">
+      <input id="en" placeholder="英文" autocomplete="off" autocapitalize="off" required>
+      <input id="zh" placeholder="中文" autocomplete="off" required>
+      <button class="btn" type="submit">加入</button>
+    </form>
+    <details>
+      <summary>一次加很多</summary>
+      <textarea id="bulk" placeholder="一行一个：英文 空格 中文&#10;dog 狗&#10;abandon v. 放弃"></textarea>
+      <div class="row"><button class="btn ghost" id="bulkBtn" type="button">全部加入</button><span class="hint" id="bulkMsg">同一个英文词会覆盖旧的意思</span></div>
+    </details>
+    <input class="search" id="search" placeholder="搜单词" autocomplete="off">
+    <ul class="list" id="list"></ul>
+  </section>
+
+  <section>
+    <h2>备份 <span>单词只存在这台手机的浏览器里</span></h2>
+    <p class="hint" style="margin:0 0 10px">清浏览器数据或换手机前，先导出一份。导出的文本也能粘回"一次加很多"。</p>
+    <div class="row">
+      <button class="btn ghost" id="exportBtn" type="button">导出文件</button>
+      <button class="btn ghost" id="copyBtn" type="button">复制全部</button>
+      <label class="btn ghost" for="importIn" style="display:inline-block">导入文件</label>
+      <input type="file" id="importIn" accept=".txt,.json,text/plain,application/json" hidden>
+    </div>
+    <p class="hint" id="bkMsg" style="margin:8px 0 0"></p>
+  </section>
+</div>
+
+<script>
+const KEY="beidanci.v1", DAY_GOAL=20;
+const SAMPLE=[["apple","苹果"],["water","水"],["book","书"],["run","跑"],["eat","吃"],["sleep","睡觉"],["happy","开心的"],["friend","朋友"],["grape","葡萄"],["orange","橘子"],["cat","猫"],["star","星星"]];
+const $=id=>document.getElementById(id);
+let S=load();
+let mode="en", book=false, cur=null, lastEn=null, start=0, done=0, total=0, tsum=0, locked=false;
+
+function load(){
+  try{ const s=JSON.parse(localStorage.getItem(KEY)); if(s&&Array.isArray(s.words)) return {days:{},...s}; }catch(e){}
+  return {words:SAMPLE.map(([en,zh])=>({en,zh,wrong:0,inBook:false,streak:0})),days:{}};
+}
+function persist(){ try{ localStorage.setItem(KEY,JSON.stringify(S)); }catch(e){ $("fb").textContent="存不进去：浏览器存储满了或被关了"; } }
+const today=()=>{const d=new Date();return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");};
+function dayStreak(){
+  let n=0; const d=new Date();
+  if((S.days[today()]||0)<DAY_GOAL) d.setDate(d.getDate()-1);
+  for(;;){ const k=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+    if((S.days[k]||0)>=DAY_GOAL){n++; d.setDate(d.getDate()-1);} else break; }
+  return n;
+}
+function renderDaily(){
+  const c=S.days[today()]||0;
+  $("dayText").textContent=c>=DAY_GOAL?`今天 ${c} ✓`:`今天 ${c}/${DAY_GOAL}`;
+  $("dayBar").style.width=Math.min(100,c/DAY_GOAL*100)+"%";
+  $("streak").textContent=`连续 ${dayStreak()} 天`;
+  $("bookBtn").textContent="错词本 "+S.words.filter(w=>w.inBook).length;
+}
+function speak(t){ try{ speechSynthesis.cancel(); const u=new SpeechSynthesisUtterance(t); u.lang="en-US"; u.rate=.9; speechSynthesis.speak(u);}catch(e){} }
+const shuffle=a=>{for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
+const norm=s=>s.trim().toLowerCase().replace(/\s+/g," ");
+
+function next(){
+  locked=false; renderDaily();
+  const pool=book?S.words.filter(w=>w.inBook):S.words;
+  $("count").textContent="词库 "+S.words.length;
+  $("tag").textContent={en:"看英文选中文",zh:"看中文选英文",spell:"看中文拼英文"}[mode]+(book?" · 错词本":"");
+  const op=$("opts"); op.innerHTML=""; $("fb").textContent=""; $("fb").className="feedback";
+  $("spellForm").hidden=mode!=="spell"; $("say").hidden=mode!=="en";
+  const need=mode==="spell"?1:4;
+  if(S.words.length<need){ setPrompt("zh","至少要 4 个词"); $("fb").textContent="在下面加几个单词"; $("spellForm").hidden=true; return; }
+  if(!pool.length){ setPrompt("zh","错词本空了"); $("fb").textContent="错过的词都连对三次了"; $("spellForm").hidden=true; return; }
+  let c; do{ c=pool[Math.floor(Math.random()*pool.length)]; }while(pool.length>1&&c.en===lastEn);
+  cur=c; lastEn=c.en;
+  setPrompt(mode==="en"?"en":"zh", mode==="en"?c.en:c.zh);
+  if(mode==="spell"){ $("spellIn").value=""; $("spellIn").focus(); }
+  else{
+    const ch=shuffle([c,...shuffle(S.words.filter(w=>w!==c)).slice(0,3)]);
+    ch.forEach(w=>{ const b=document.createElement("button"); b.className="opt"+(mode==="zh"?" en":"");
+      b.textContent=mode==="en"?w.zh:w.en; b.onclick=()=>finish(w===c,b); b._w=w; op.appendChild(b); });
+  }
+  start=performance.now();
+}
+function setPrompt(cls,t){ $("prompt").className="prompt "+cls; $("ptext").textContent=t; }
+
+function finish(ok,btn){
+  if(locked) return; locked=true;
+  const sec=(performance.now()-start)/1000; total++; tsum+=sec; if(ok) done++;
+  S.days[today()]=(S.days[today()]||0)+1;
+  if(ok){ if(cur.inBook){ cur.streak=(cur.streak||0)+1; if(cur.streak>=3){cur.inBook=false;cur.streak=0;} } }
+  else{ cur.wrong=(cur.wrong||0)+1; cur.inBook=true; cur.streak=0; }
+  persist();
+  [...$("opts").children].forEach(b=>{ b.disabled=true; if(b._w===cur) b.classList.add("right"); });
+  if(btn&&!ok) btn.classList.add("wrong");
+  const fb=$("fb"); fb.innerHTML="";
+  const tip=document.createElement("span"); tip.className=ok?"ok":"bad";
+  tip.textContent=ok?`对了 · ${sec.toFixed(1)} 秒`+(cur.inBook?` · 再对 ${3-cur.streak} 次出错词本`:""):"错了，";
+  fb.append(tip);
+  if(!ok){ const b=document.createElement("b"); b.textContent=cur.en; fb.append(b, " = "+cur.zh); }
+  speak(cur.en);
+  $("stats").textContent=`本轮 ${done}/${total} · 平均 ${(tsum/total).toFixed(1)} 秒`;
+  renderDaily(); renderList();
+  setTimeout(next, ok?900:2000);
+}
+
+function renderList(){
+  $("total").textContent=S.words.length+" 个";
+  const q=norm($("search").value), ul=$("list"); ul.innerHTML="";
+  const arr=S.words.filter(w=>!q||w.en.toLowerCase().includes(q)||w.zh.includes(q))
+    .sort((a,b)=>(b.inBook-a.inBook)||(b.wrong||0)-(a.wrong||0)||a.en.localeCompare(b.en));
+  arr.slice(0,300).forEach(w=>{
+    const li=document.createElement("li");
+    const a=document.createElement("span"); a.className="w"; a.textContent=w.en;
+    const m=document.createElement("span"); m.className="m"; m.textContent=w.zh;
+    li.append(a,m);
+    if(w.inBook){ const t=document.createElement("span"); t.className="tag"; t.textContent="错 "+w.wrong; li.append(t); }
+    const d=document.createElement("button"); d.className="del"; d.textContent="删"; d.setAttribute("aria-label","删除 "+w.en);
+    d.onclick=()=>{ S.words=S.words.filter(x=>x!==w); persist(); renderList(); if(cur===w) next(); else renderDaily(); };
+    li.append(d); ul.append(li);
+  });
+  if(arr.length>300){ const li=document.createElement("li"); li.className="hint"; li.textContent=`还有 ${arr.length-300} 个，用搜索找`; ul.append(li); }
+}
+
+function addWord(en,zh){
+  en=en.trim(); zh=zh.trim(); if(!/[A-Za-z]/.test(en)||!zh) return false;
+  const old=S.words.find(w=>norm(w.en)===norm(en));
+  if(old) old.zh=zh; else S.words.push({en,zh,wrong:0,inBook:false,streak:0});
+  return true;
+}
+function parseLines(text){
+  let n=0;
+  text.split(/\r?\n/).forEach(line=>{
+    const m=line.trim().match(/^([A-Za-z][A-Za-z'’ .\-]*?)[\s,，:：\t]+(.+)$/);
+    if(m&&addWord(m[1],m[2])) n++;
+  });
+  return n;
+}
+
+$("addForm").addEventListener("submit",e=>{ e.preventDefault();
+  if(addWord($("en").value,$("zh").value)){ persist(); $("en").value=""; $("zh").value=""; $("en").focus(); renderList(); if(!cur) next(); renderDaily(); } });
+$("bulkBtn").onclick=()=>{ const n=parseLines($("bulk").value); persist();
+  $("bulkMsg").textContent=n?`加了 ${n} 个`:"没认出来，格式是：英文 空格 中文"; if(n){ $("bulk").value=""; renderList(); next(); } };
+$("spellForm").addEventListener("submit",e=>{ e.preventDefault(); if(!locked&&cur) finish(norm($("spellIn").value)===norm(cur.en)); });
+$("say").onclick=()=>cur&&speak(cur.en);
+$("search").oninput=renderList;
+document.querySelectorAll("[data-mode]").forEach(b=>b.onclick=()=>{ mode=b.dataset.mode;
+  document.querySelectorAll("[data-mode]").forEach(x=>x.setAttribute("aria-pressed",x===b)); next(); });
+$("bookBtn").onclick=()=>{ book=!book; $("bookBtn").setAttribute("aria-pressed",book); next(); };
+
+const asText=()=>S.words.map(w=>w.en+" "+w.zh).join("\n");
+$("exportBtn").onclick=()=>{
+  const blob=new Blob([JSON.stringify(S,null,1)],{type:"application/json"});
+  const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download="背单词备份-"+today()+".json";
+  document.body.append(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(a.href),2000);
+  $("bkMsg").textContent=`导出了 ${S.words.length} 个词。存到"文件"里，别删。`;
+};
+$("copyBtn").onclick=async()=>{
+  try{ await navigator.clipboard.writeText(asText()); $("bkMsg").textContent=`复制了 ${S.words.length} 个词，可以粘到备忘录里存着`; }
+  catch(e){ $("bulk").value=asText(); $("bulk").closest("details").open=true; $("bulk").select(); $("bkMsg").textContent="自动复制不行，已经放进上面的框里，手动全选复制"; }
+};
+$("importIn").onchange=e=>{
+  const f=e.target.files[0]; if(!f) return; const r=new FileReader();
+  r.onload=()=>{ let n=0, t=String(r.result);
+    try{ const j=JSON.parse(t); if(j&&Array.isArray(j.words)){ j.words.forEach(w=>{ if(w&&w.en&&w.zh){ const old=S.words.find(x=>norm(x.en)===norm(w.en));
+        if(old) Object.assign(old,w); else S.words.push({wrong:0,inBook:false,streak:0,...w}); n++; } });
+        if(j.days) for(const k in j.days) S.days[k]=Math.max(S.days[k]||0,j.days[k]); } else throw 0; }
+    catch(_){ n=parseLines(t); }
+    persist(); renderList(); next(); $("bkMsg").textContent=n?`导入了 ${n} 个词`:"这个文件里没认出单词"; e.target.value=""; };
+  r.readAsText(f);
+};
+
+renderList(); next();
+</script>
+</body>
+</html>
